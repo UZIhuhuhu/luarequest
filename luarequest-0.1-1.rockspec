@@ -16,5 +16,8 @@ dependencies = {
    "lua >= 5.1, < 5.4"
 }
 build = {
-   -- We'll start here.
+  type = "builtin",
+  modules = {
+    luarequest = "request.lua"
+  }
 }
